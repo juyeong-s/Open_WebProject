@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            /* h2{
+            text-align: center;
+            color: green;
+        } */
+
+            #id1 {
+                color: blue;
+                background-color: yellow;
+                /* text-align: justify; */
+            }
+
+            #id2 {
+                color: red;
+                background-color: green;
+            }
+
+            #b {
+                color: blueviolet;
+                background-color: yellow;
+            }
+            #a {
+                color: blue;
+                background-color: black;
+            }
+
+            .b {
+                color: red;
+            }
+
+            p[class="b"] {
+                background-color: aqua;
+            }
+
+            a:active {
+                background-color: brown;
+            }
+            body {
+                background-image: url("토끼.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100px 100px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            caption {
+                caption-side: bottom;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="id1">ID1 선택자</h1>
+        <p id="id1">ID1 선택자</p>
+        <h1 id="id2">ID2 선택자</h1>
+        <p id="id2">ID2 선택자</p>
+
+        <a href="#" target="_blank">뿌직</a>
+
+        <p class="b">&nbsp;뿡</p>
+        <p class="a">뿡</p>
+
+        <p id="a">바보</p>
+        <h1 id="a">멍청이</h1>
+        <table border="1">
+            <caption>zz</caption>
+            <tr>
+                <th colspan="4">Schedule</th>
+            </tr>
+            <tr>
+                <th>Le</th>
+                <th>Le</th>
+                <th>Le</th>
+                <th>Le</th>
+            </tr>
+            <tr>
+                <td>h</td>
+                <td>h</td>
+                <td>h</td>
+                <td rowspan="2">h</td>
+            </tr>
+            <tr>
+                <td>d</td>
+                <td>d</td>
+                <td>d</td>
+            </tr>
+            </table>
+
+            <table border="2">
+                <tr>
+                    <td>
+                        <img href="london.jpg" alt="London">
+                    </td>
+                    <td>
+                        <img href="Paris.jpg" alt="Paris">
+                    </td>
+                </tr>
+                <tr>
+                    <td colsspan="2">
+                        where do you want to go?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="a" value="London" checked>London
+                    </td>
+                    <td>
+                        <input type="radio" name="a" value="Paris">Paris
+                    </td>
+                </tr> 
+            </table> 
+                    
+                    
+                    <div style="border: 3px solid black; padding: 0px;"> <div style="border: 5px solid blue; padding: 0px; margin: 0px;"> <p style="background-color: red; margin: 0px;">1</p>
+                    <p>2</p>
+                </div>
+                <p>3</p>
+                <p>4</p>
+            </div>
+
+        </table>
+    </body>
+</html>
